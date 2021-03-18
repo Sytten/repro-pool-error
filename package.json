@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "2.19.0"
+  },
+  "devDependencies": {
+    "prisma": "2.19.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
